@@ -15,7 +15,7 @@ form.forEach((item) => {
         }
       }
   
-      fetch('https://jsonplaceholder.typicode.com/posts', {
+      fetch('/server.php', {
         method: 'POST',
         body: JSON.stringify(data),
       })
